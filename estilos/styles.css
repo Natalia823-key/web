@@ -1,0 +1,119 @@
+*{box-sizing: border-box;}
+
+#principal{max-width: 1200px; margin: 20px; font-family: Helvetica, Arial, sans-serif; }
+.zona {overflow:hidden; position: relative;}
+
+#idioma{text-align: right; padding: 10px 7px;}
+#idioma a{padding: 0 8px;text-decoration: none; color: black; margin-left: 15px;}
+#idioma a :hover{color: rgb(43, 43, 188); }
+
+#cabecera{ border: 2px solid gray; border-radius: 20px; background: #A9F5A9; }
+#cabecera header{padding-bottom: 15px;}
+/*#cabecera header img { display: inline-block; vertical-align: middle; width: 150px; height: 100px; margin-left: 10px;}*/
+#cabecera header div { display: block; padding: 5px 15px;  text-align: center;}
+#cabecera h1 { margin: 0;  text-align: center; text-shadow: 3px 3px 2px #696; color: #666; color: #1221BD; font-weight: normal; font-size: 40px; font-family: Arial; text-transform: uppercase;}
+/*#cabecera h2 { margin: 0; font-size: 1.3rem;font-style: italic; }*/
+#cabecera #logo{display: block; float: left; height: 150px; width: 150px; }
+#cabecera #bandera img{width: 75px; height: 45px;}
+
+
+#menu{border: 2px solid gray; margin-top: 10px; border-radius: 20px;}
+#menu ul{margin: 0; padding: 0; list-style: none;}
+#menu ul li{display: inline-block;}
+#menu ul li a{display: block;text-decoration: none; padding: 10px 16px; font-size: 1.3rem; color: black;}
+#menu ul li a:hover { background-color:#A9F5A9 ; color:white; }
+
+/*Responsive, para móvil se ve solo el icono del menu*/
+#img { display: none; position: absolute; top:-33px; right: 0; }
+#img{ text-align: right; }
+#img img { width:36px; padding: 5px; cursor: pointer; }
+
+/*#contenido{margin-top: 10px;border-radius: 20px; background-color:#A9F5A9 ; }
+#cnt, #lateral { display: block; padding: 20px 13px; border: 2px solid gray;  }*/
+#cnt {box-sizing: border-box; width: 69%; float: left;  margin-bottom: 5px; overflow: hidden; border: 2px solid gray; border-radius: 20px; margin-top: 10px; margin-left: 5px;background-color:#A9F5A9 ; }
+/*#lateral{display: block; width: 20%; border: 2px solid gray; border-radius: 20px; margin-top: 10px; overflow: hidden;}*/
+#lateral{width: 30%; float: left; border: 2px solid gray; border-radius: 20px; margin-top: 10px; margin-right: 5px;background-color:#A9F5A9 ; text-align: center;}
+/*#menuLateral{text-align: center; margin-top: 10px; width: 30%; float: left; margin-top: 10px; margin-right: 5px;}*/
+#menuLateral ul{margin: 0; padding: 0; list-style: none;}
+#menuLateral ul li{display: block;}
+#menuLateral ul li a{display: block; text-decoration: none; padding: 10px 16px; font-size: 1.3rem; color: black;}
+#menuLateral ul li a:hover {color: blue; }
+.not{float: left; }
+#rel{ margin-top: 20px;  text-align: center; text-shadow: 3px 3px 2px #696; color: #666; color: #1221BD; font-weight: normal; font-size: 20px; font-family: Arial; text-transform: uppercase;}
+#tabla{width: 95%; border-radius: 20px; margin-bottom: 20px; margin-top: 10px;}
+
+#banner{display: block; border: 2px solid gray; margin-top: 10px;border-radius: 20px; text-align: center;  background-color:#A9F5A9 ;}
+#banner img{margin-top: 10px; margin-bottom: 10px; border-radius: 20px; border: 2px solid gray;}
+h2, h1{color: white; text-shadow: black 0.1em 0.1em 0.2em; font-size: 24px; margin-top: 10px; text-align: center; margin-bottom: 10px;}
+
+/*.noticia { position: relative; overflow: hidden; margin-bottom: 15px; }
+.noticia{display: block; width: 70%;  border: 2px solid gray; border-radius: 20px; margin-top: 10px;}*/
+.noticia h1 { margin: 3px 0 8px; }
+.noticia img { float:left; padding: 0px 10px 10px 5px; width: 150px; height: 100px; border-radius: 20px;}
+.noticia p { margin: 7px; line-height: 1.3em; font-size: 1.2rem; text-align: justify; }
+#pie { text-align: right; margin-right: 10px; margin-bottom: 10px;}
+
+#footer { padding: 10px; border: 2px solid gray; margin-top: 10px; border-radius: 20px;}
+#footer ul{margin: 0; padding: 0; list-style: none;}
+#footer ul li{display: inline-block;}
+#footer ul li a{display: block;text-decoration: none; padding: 10px 16px; font-size: 1.3rem; color: black;}
+#footer ul li a:hover { background-color:#A9F5A9 ; color:white; }
+
+#icono { position: absolute; top: 7px; right: 10px; }
+#icono a img { max-width: 24px; }
+
+/*Formulario*/
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+#form {height: 100%; font-family: 'Noto Sans', sans-serif; background-color: #A9F5A9; border-radius: 20px; margin-top: 10px; margin-bottom: 10px; border: 2px solid gray;}
+.contacto {width: 460px; height: auto; margin: auto; border: 2px solid gray; margin-top: 10px; margin-bottom: 10px; border-radius: 20px; padding-top: 30px; padding-bottom: 20px; background-color: #fbfbfb; padding-left: 30px;}
+input {background-color: #fbfbfb; width: 408px; height: 40px; border-radius: 5px; border-style: solid; border-width: 1px; border-color: #ab4493; margin-top: 10px; padding-left: 10px; margin-bottom: 20px;}
+textarea {background-color: #fbfbfb; width: 405px; height: 150px; border-radius: 5px; border-style: solid; border-width: 1px; border-color: #ab4493; margin-top: 10px; padding-left: 10px; margin-bottom: 20px; padding-top: 15px;}
+label {display: block; float: center;}
+button {height: 45px; padding-left: 5px; padding-right: 5px; margin-bottom: 20px; margin-top: 10px; text-transform: uppercase; background-color: #72e64e; border-color: #72e64e; border-style: solid; border-radius: 10px; width: 420px; cursor: pointer;}
+button p {color: #fff;}
+.aviso {font-size: 13px; color: #0e0e0e;}
+h1 {font-size: 39px; text-align: letf; padding-bottom: 20px; color: blue;}
+h3 {font-size: 16px; padding-bottom: 30px; color: #0e0e0e;}
+p {font-size: 14px; color: #0e0e0e;}
+#formulario input:focus {outline: 0; border: 1px solid #97d848;}
+#formulario textarea:focus {outline: 0; border: 1px solid #97d848;}
+input:invalid {border: 2px dashed red;}
+input:valid {border: 2px solid black;}
+
+/*Responsive
+
+@media all and (max-width: 1400px) {
+    #cabecera { background: cyan; }
+}
+
+@media all and (max-width: 1140px) {
+    #cabecera { background: rgb(82, 101, 187); }
+}
+
+@media all and (max-width: 960px) {
+    #cabecera { background: rgb(143, 162, 249); }
+}
+
+@media all and (max-width: 700px) {
+    #contenido { display: block; clear: both; }
+    #cnt, #lateral { display: block; width: 100%; }
+
+    #cabecera header { padding-right: 40px; }
+    #img { display: block; }
+    #menu { float: right; overflow: visible; }
+    #menu ul { display: none; }
+    #menu ul li { display: block; }
+    #menu:hover { width: 100%; }
+    #menu:hover ul { display: block; }
+}
+
+@media all and (max-width: 600px) {
+    #cabecera header img { max-width: 80px;}
+    #cabecera header h1 { font-size: 1.6rem; }
+    #cabecera header h2 { font-size: 1.1rem; }
+    
+    .opcion a { margin: 0 2px; }
+
+    #icono { position: static; text-align: center; padding-top: 10px; }
+}*/
